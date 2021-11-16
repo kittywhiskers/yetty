@@ -83,7 +83,11 @@
   &.gradient-home {
     background-image: url("/assets/images/mesh-gradient-black.webp");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
   }
 }
 

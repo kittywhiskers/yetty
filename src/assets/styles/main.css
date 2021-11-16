@@ -333,7 +333,11 @@ h6,
   .dark-theme.gradient-home {
     background-image: url("/assets/images/mesh-gradient-black.webp");
     background-repeat: no-repeat;
-    background-size: contain; }
+    background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; }
 
 /*! purgecss ignore */
 .no-webp .dark-theme.gradient-home {
@@ -1007,12 +1011,20 @@ header {
   .gradient-home {
     background-image: url("/assets/images/mesh-gradient-black.webp");
     background-repeat: no-repeat;
-    background-size: contain; }
+    background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; }
   /*! purgecss ignore */
   .no-webp .gradient-home {
     background-image: url("/assets/images/mesh-gradient-black.jpg");
     background-repeat: no-repeat;
-    background-size: contain; }
+    background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; }
   .light-theme {
     --body-background: var(--white);
     --body-font-color: var(--grey-900);
@@ -1038,11 +1050,19 @@ header {
   .gradient-home.light-theme {
     background-image: url("/assets/images/mesh-gradient-white.webp");
     background-repeat: no-repeat;
-    background-size: contain; }
+    background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; }
   /*! purgecss ignore */
   .no-webp .gradient-home.light-theme {
     background-image: url("/assets/images/mesh-gradient-white.jpg");
     background-repeat: no-repeat;
-    background-size: contain; } }
+    background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; } }
 
 /*# sourceMappingURL=main.css.map */
